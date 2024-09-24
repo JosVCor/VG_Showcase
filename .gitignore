@@ -1,0 +1,48 @@
+# Node modules
+node_modules/          # Ignores the node_modules directory where installed packages are stored.
+# Environment variables
+.env                   # Ignores the .env file for sensitive information.
+# Logs
+logs/                  # Ignores any logs directory.
+*.log                  # Ignores all log files with a .log extension.
+# Build output
+dist/                  # Ignores the dist directory for build output.
+
+# Compiled output
+/tmp                   # Ignores temporary files.
+.out-tsc               # Ignores TypeScript output.
+.bazel-out             # Ignores Bazel output.
+
+# Node
+npm-debug.log         # Ignores npm debug logs.
+yarn-error.log        # Ignores Yarn error logs.
+
+# IDEs and editors
+.idea/                 # Ignores JetBrains IDE project files.
+.project               # Ignores Eclipse project files.
+.classpath             # Ignores Eclipse classpath files.
+.c9/                   # Ignores Cloud9 project files.
+*.launch               # Ignores launch files.
+.settings/             # Ignores Eclipse settings files.
+*.sublime-workspace    # Ignores Sublime Text workspace files.
+
+# Visual Studio Code
+.vscode/*              # Ignores all VSCode settings.
+!.vscode/settings.json  # Includes VSCode settings in version control.
+!.vscode/tasks.json     # Includes VSCode tasks in version control.
+!.vscode/launch.json    # Includes VSCode launch configurations in version control.
+!.vscode/extensions.json # Includes VSCode extensions in version control.
+.history/*              # Ignores history files created by some editors.
+
+# Miscellaneous
+/.angular/cache        # Ignores Angular cache.
+.sass-cache/          # Ignores Sass cache files.
+.connect.lock          # Ignores Connect lock files.
+coverage               # Ignores coverage reports from tests.
+libpeerconnection.log  # Ignores WebRTC log files.
+testem.log             # Ignores Testem log files.
+typings                # Ignores TypeScript typings.
+
+# System files
+.DS_Store              # Ignores macOS system files.
+Thumbs.db              # Ignores Windows thumbnail cache files.
