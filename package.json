@@ -2,7 +2,8 @@
   "name": "vg-showcase",
   "version": "1.0.0",
   "scripts": {
-    "heroku-postbuild": "cd frontend && npm install --include=dev && npm run build"
+    "heroku-postbuild": "cd frontend && npm install --include=dev && npm run build",
+    "postinstall": "npm install && npm install --prefix backend"
   },
   "engines": {
     "node": "20.x"
